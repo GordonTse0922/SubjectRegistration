@@ -719,8 +719,8 @@ public class Connection_Test {
 
     public static void main(String[] args) throws SQLException, IOException {
         String username, password;
-        username = "\"18059246d\"";
-        password = "rsesbqjm";
+        username = "\"Student ID\"";
+        password = "Passowrd";
         DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
         OracleConnection conn = (OracleConnection) DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:dbms", username, password);
         String Continue;
